@@ -4,56 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e17cde8255.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="wrapper">
+        <div id="topline"></div>
         <header>
-            <div class="title">
+            <div class="logo">
                 <img src="images/happy-trekkers-logo.png" alt="happy trekkers hiking club logo">
-                <h1>Happy Trekkers Hiking Club</h1>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <nav>
-                <ul>
-                    <a href="#"><li>About Us</li></a>
-                    <a href="#"><li>temp</li></a>
-                    <a href="#"><li>temp</li></a>
-                    <a href="#"><li>temp</li></a>
+            <div class="title-box">
+                <div class="socials">
+                        <h3 class="icon" id="contact-us-header"><a href="contactus.html">Contact Us</a></h3>
+                        <h3 class="icon"><a href=""><i class="fa-brands fa-facebook"></i></a></h3>
+                        <h3 class="icon"><a href=""><i class="fa-brands fa-instagram"></i></a></h3>
+                </div>
+                <div class="title">
+                    <h1>Happy Trekkers Hiking Club</h1>
+                </div>
+                <ul class="nav">
+                    <a href="aboutus.html" class="secondary-btn"><li>About Us</li></a>
+                    <a href="events.html" class="secondary-btn"><li>Events</li></a>
+                    <a href="membership.html" class="secondary-btn"><li>Memberships</li></a>
+                    <a href="trails.html" class="secondary-btn"><li>Trails</li></a>
                 </ul>
-            </nav>
+            </div>
         </header>
         <!-- ------------------------------------ -->
         <main>
-            <section class="hero-image">
-                <h1 id="slogan">Slogan</h1>
-                <img src="" alt="">
+            <section class="hero">
+                <div class="hero-image">
+                    <!--<img src="images/beach.jpg" alt="Cottesloe Beach, Western Australia." width="1000" height="547" title="Cottesloe Beach">-->
+                    <p class="slogan">
+                        Trekking our way to health and happiness; respecting the earth we tread on!
+                        <br><br><a href="#" class="primary-btn slogan-btn">Become a Member</a>
+                    </p>
+                    <small class="reference">from: <a href="https://www.hikewest.org.au/">Hikewest.org</a></small>
+                </div>
+                <!-- <img src="images/forest-hero.jpg" alt="" id="hero-img" width="796"> -->
             </section>
-            <article>
-                <h1 class="article-title">Subheading</h1>
+            <section class="home-body">
+                <h1 class="article-title">Welcome to Happy Trekkers</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Enim quo laudantium at quia iste repellendus distinctio ipsa et, 
-                    perferendis, impedit veniam veritatis, consequuntur nulla! 
-                    Voluptates ea tempore dolores rerum! Dolores!
+                    As our slogan says, we believe trekking is a great way both 
+                    to keep health and happy. We also value the companionship of 
+                    walking with others and sharing tips and walking 
+                    trail stories along the way. See the other pages of 
+                    our website for more information on how to join, 
+                    what we do and who to contact. 
+                    <br><b>Hope to see you out on the track!</b>
                 </p>
-            </article>
+            </section>
         </main>
         <!-- -------------------------------------- -->
         <footer>
-            <ul class="footer-col col-1">
-                <img src="images/hikewest-logo.png" alt="">
-                <li>Member of HikeWest</li>
-            </ul>
-            <ul class="footer-col col-2">
-                
-            </ul>
-            <ul class="footer-col col-2">
-                <li>&copy; Happy Trekkers Hiking Club 2024</li>
-                <li><a href="#"><button>Become a Member</button></a></li>
-            </ul>
+            <div class="footer-cols">
+                <ul class="footer-col col-1">
+                    <img src="images/hikewest-logo.png" alt="hikewest logo">
+                    <li>Member ofHikeWest</li>
+                </ul>
+                <ul class="footer-col col-2">
+                    <li><h3>Pages:</h3></li>
+                    <a href="aboutus.html" class="secondary-btn"><li>About Us</li></a>
+                    <a href="events.html" class="secondary-btn"><li>Events</li></a>
+                    <a href="membership.html" class="secondary-btn"><li>Memberships</li></a>
+                    <a href="trails.html" class="secondary-btn"><li>Trails</li></a>
+                </ul>
+                <ul class="footer-col col-3">
+                    <li>&copy; Happy Trekkers Hiking Club 2024</li>
+                    <li><a href="#" class="primary-btn">Become a Member</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-btm">
+                <h3><a href="">Privacy policy</a></h3>
+            </div>
         </footer>
     </div>
 </body>
