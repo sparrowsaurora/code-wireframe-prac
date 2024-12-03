@@ -13,9 +13,8 @@
 }
 
 #wrapper {
-    margin: auto;
-    border: 1px solid #000;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -120,15 +119,31 @@ header img {
     border-radius: 20px;
     margin: 0px 15px;
 }
+.sub-header {
+    display: flex;
+    background-image: url("/images/forest-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: x-large;
+}
 
 /*----------------
     MAIN
 ------------------*/
 
-/* main {
-    border: 1px solid #000;
-    border-radius: 5px;
-} */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 52vh;
+}
 
 /*----------------
     HERO
@@ -141,7 +156,6 @@ header img {
     background-size: cover;
     position: relative;
     height: 600px;
-    
 }
 
 .slogan {
@@ -156,8 +170,6 @@ header img {
     left: 20px;
 }
 
-.slogan
-
 .reference {
 
     font-size: 0.8em;
@@ -170,7 +182,7 @@ header img {
 }
 
 /*----------------
-    ARTICLE
+    INDEX - ARTICLE
 ------------------*/
 
 .article-title {
@@ -186,6 +198,50 @@ header img {
     width: 90%;
 }
 
+/*----------------
+      ABOUT
+------------------*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 200px;
+}
+
+.about-members {
+    display: flex;
+}
+
+.about-member {
+    background-color: #d3d3d3;
+    border: 1px solid #8d8d8d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+/*----------------
+    membership
+------------------*/
+.membership {
+    display: flex;
+    text-align: center;
+}
+
+.membership-right {
+    width: 30%;
+    margin: 20px;
+}
+.membership-left {
+    margin: 20px;
+}
+
+.membership-left > form {
+    text-align: left;
+}
 
 /*----------------
     FOOTER
@@ -214,6 +270,10 @@ footer li {
     width: fit-content;
     height: fit-content;
     margin: 8px auto;
+}
+
+.col-2 a {
+    margin: 2px;
 }
 
 footer {

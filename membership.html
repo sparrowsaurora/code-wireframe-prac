@@ -1,31 +1,119 @@
-<!-- 5. Membership: Information about membership benefits, fees, and how to join the club. 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e17cde8255.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="topline"></div>
+        <header>
+            <div class="logo">
+                <img src="images/happy-trekkers-logo.png" alt="happy trekkers hiking club logo">
+            </div>
+            <div class="title-box">
+                <div class="socials">
+                    <h3 class="icon" id="contact-us-header"><a href="contactus.html">Contact Us</a></h3>
+                    <h3 class="icon"><a href=""><i class="fa-brands fa-facebook"></i></a></h3>
+                        <h3 class="icon"><a href=""><i class="fa-brands fa-instagram"></i></a></h3>
+                </div>
+                <div class="title">
+                    <h1>Happy Trekkers Hiking Club</h1>
+                </div>
+                <ul class="nav">
+                    <a href="about.html" class="secondary-btn"><li>About Us</li></a>
+                    <a href="events.html" class="secondary-btn"><li>Events</li></a>
+                    <a href="membership.html" class="secondary-btn"><li>Memberships</li></a>
+                    <a href="trails.html" class="secondary-btn"><li>Trails</li></a>
+                </ul>
+            </div>
+        </header>
+        <section class="sub-header">
+            <h2>Membership</h2>
+        </section>
+        <!-- ------------------------------------ -->
+        <main>
+            <div class="membership">
+                <!-- Information about membership benefits, fees, and how to join the club.  -->
+                <section class="membership-left">
+                    <!-- Wider left SIDE -->
+                    <div class="membership-htj">
+                        <h2>How to join</h2>
+                        <p>Due to the distances and inaccessible and hilly regions walks are done in, prospective members need to be reasonably fit. For this reason, an introductory walk must be successfully completed before membership can be accepted. Up to two Introductory walks can be done in a season.</p>
+                        <!-- (Have this above the form) -->
+                    </div>
+                    <div class="membership-eoi">
+                        <h3>Expression of interest</h3>
+                        <p>Interested?</p>
+                        <br>
+                        <a href="" class="primary-btn">Express interest</a>
+                    </div>
+                    <!-- Include Form for people to contact the Club
+                    similar to https://www.westernwalkers.com.au/membership#join. 
+                    Do not have the terms and conditions underneath.  -->
+                    <form action="mailto:20136584@tafe.wa.edu.au?subject=Aussiewebsitecontact" method="post" enctype="text/plain">
+                        <fieldset>
+                            <label for="fname">First Name</label>
+                            <input type="text" name="FirstName" id="fname" placeholder="enter your first name">
+                            <br>
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="LastName" id="lname" placeholder="enter your last name">
+                            <p>
+                                <label for="enquiry">enquiry</label>
+                                <br>
+                                <textarea name="Message" id="enquiry" placeholder="Enter your message here"></textarea>
+                            </p>
+                            <button type="reset">Clear</button>
+                            <button type="submit">Send</button>
+                        </fieldset>
+                    </form>
+                    <p>Disclaimer: Your email address will only be used to reply to your query. It will not be added to a mailing list or passed on to any third party. Emails are deleted after they are replied to.</p>    
+                </section>     
+                <aside class="membership-right">
+                    <!-- narrow right side -->
+                    <h3>2024 Membership Fees</h3>
+                    <p>$5 Introductory walk, to be assessed for membership (part of our risk assessment strategy)</p>
+                    <p>$40 per annum (once accepted)</p>
+    
+                    <h3>Safety forms</h3>
+                    <p>Forms members must fill in and bring with you to your Introductory walk:</p>
+                    <a href="">Member_Emergency_Contact_form.docx</a>
+                    <a href="">Acknowledgment_of_risk_form_for_members.docx</a>
+                    <a href="">Acknowledgment_of_risk_form_for_temporary_members_visitors_Clubs.docx</a>
+                    <!-- (have as buttons, once under) -->
+                </aside>
+            </div>
+        </main>
+        <!-- -------------------------------------- -->
+        <footer>
+            <div class="footer-cols">
+                <ul class="footer-col col-1">
+                    <img src="images/hikewest-logo.png" alt="hikewest logo">
+                    <li>Member of HikeWest</li>
+                </ul>
+                <ul class="footer-col col-2">
+                    <li><h3>Pages:</h3></li>
+                    <a href="about.html" class="secondary-btn"><li>About Us</li></a>
+                    <a href="events.html" class="secondary-btn"><li>Events</li></a>
+                    <a href="membership.html" class="secondary-btn"><li>Memberships</li></a>
+                    <a href="trails.html" class="secondary-btn"><li>Trails</li></a>
+                </ul>
+                <ul class="footer-col col-3">
+                    <li>&copy; Happy Trekkers Hiking Club 2024</li>
+                    <li><a href="#" class="primary-btn">Become a Member</a></li>
+                </ul>
+            </div>
 
-Narrower right SIDE 
-
-2024 Membership Fees 
-
-$5 Introductory walk, to be assessed for membership (part of our risk assessment strategy) 
-
-$40 per annum (once accepted) 
-
-Safety forms  
-
-Forms members must fill in and bring with you to your Introductory walk:  
-
-Member_Emergency_Contact_form.docx ,  
-
-Acknowledgment_of_risk_form_for_members.docx 
-
-Acknowledgment_of_risk_form_for_temporary_members_visitors_Clubs.docx 
-
-(have as buttons, once under) 
-
-Wider left SIDE 
-
-How to join: Due to the distances and inaccessible and hilly regions walks are done in, prospective members need to be reasonably fit. For this reason, an introductory walk must be successfully completed before membership can be accepted. Up to two Introductory walks can be done in a season. (Have this above the form) 
-
-Expression of interest 
-
-Include Form for people to contact the Club on the wider left side of the page, similar to https://www.westernwalkers.com.au/membership#join. Do not have the terms and conditions underneath. 
-
-[Express interest] button instead of [Sign Up]  -->
+            <div class="footer-btm">
+                <h3><a href="">Privacy policy</a></h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
